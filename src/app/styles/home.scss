@@ -1,7 +1,9 @@
 .container {
   padding: 40px 32px;
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  gap: 24px;
+  justify-items: center;
+  grid-template-rows: repeat(4, auto);
   grid-template-areas: 
   "header"
   "btns"
@@ -19,8 +21,7 @@
     justify-items: start;
     justify-content: space-between;
     grid-template-areas: 
-      "header info"
-      "experience empty-1"
-      "empty-2 btns";
+    "header info"
+    "experience btns";
   }
 }
