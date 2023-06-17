@@ -1,22 +1,9 @@
-/* eslint-disable react/no-unescaped-entities */
-import Image from 'next/image'
+import { Header } from "./components/header/header";
 
 export default function Home() {
   return (
     <main>
-      <div className="header">
-        <Image
-          src="/avatar.svg"
-          alt="avatar"
-          width={100}
-          height={24}
-          priority
-        />
-        <div>
-          <h1>Hi, I'm Diego! 👋</h1>
-          <h2>Programming Student</h2>
-        </div>
-      </div>
+      <Header/>
       <div className="experience">
         <h3>Experience</h3>
         <p>Programming student and consumer of web tutorials.</p>
