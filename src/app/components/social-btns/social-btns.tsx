@@ -2,6 +2,7 @@ import { GithubIcon } from "../icons/github-icon"
 import { InstagranIcon } from "../icons/instagram-icon"
 import { LinkedinIcon } from "../icons/linkedin-icon"
 import { TwitterIcon } from "../icons/twitter-icon"
+import "./social-btns.scss"
 
 export function SocialBtns() {
   return(
