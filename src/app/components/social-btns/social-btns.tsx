@@ -13,7 +13,7 @@ export function SocialBtns() {
       <a href="#">
         <LinkedinIcon/>
       </a>
-      <a href="#">
+      <a href="https://github.com/DiegoRCarvalho">
         <GithubIcon/>
       </a>
       <a href="#">
